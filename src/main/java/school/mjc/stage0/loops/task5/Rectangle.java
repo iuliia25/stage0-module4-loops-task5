@@ -5,11 +5,12 @@ public class Rectangle {
         for (int a = 1; a <= length; a++) {
             for (int b = 1; b <= height; b++) {
                 if (a == 1 || a == length || b == 1 || b == height) {
-                    System.out.println("8");
+                    System.out.print("8");
                 } else {
-                    System.out.println(" ");
+                    System.out.print(" ");
                 }
             }
+            System.out.println();
         }
     }
 }
