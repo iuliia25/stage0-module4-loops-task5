@@ -5,11 +5,12 @@ public class Square {
         for (int a = 1; a <= sideLength; a++) {
             for (int b = 1; a <= sideLength; a++) {
                 if (a == 1 || a == sideLength || b == 1 || b == sideLength) {
-                    System.out.println("8");
+                    System.out.print("8");
                 } else {
-                    System.out.println(" ");
+                    System.out.print(" ");
                 }
             }
+            System.out.println();
         }
     }
 }
