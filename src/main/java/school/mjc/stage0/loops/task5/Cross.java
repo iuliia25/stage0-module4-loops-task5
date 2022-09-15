@@ -5,11 +5,12 @@ public class Cross {
         for (int a = 1; a <= sideLength; a++) {
             for (int b = 1; b <= sideLength; b++) {
                 if (a == sideLength / 2 || a == (sideLength-1)/2 || b == sideLength / 2 || b ==(sideLength-1)/2) {
-                    System.out.println("8");
+                    System.out.print("8");
                 } else {
-                    System.out.println(" ");
+                    System.out.print(" ");
                 }
             }
+            System.out.println();
         }
     }
 }
