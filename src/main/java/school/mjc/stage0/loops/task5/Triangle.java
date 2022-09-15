@@ -4,11 +4,12 @@ public class Triangle {
     public void printTriangle(int cathetusLength) {
         for (int a = 1; a < cathetusLength; a ++) {
             for (int b = cathetusLength; b >= a; b --) {
-                System.out.println("8");
+                System.out.print("8");
             }
             for (int b = 1; b <= a; b++) {
-                System.out.println(" ");
+                System.out.print(" ");
             }
+            System.out.println();
         }
     }
 }
